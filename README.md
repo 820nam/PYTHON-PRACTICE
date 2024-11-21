@@ -1,6 +1,6 @@
 **PRACTICE.py**
 
-****1. 기본 연산 및 통계****
+1. 기본 연산 및 통계
    
 Python에서 제공하는 기본 수학 연산 및 통계 기능을 활용하여 간단한 계산과 요약 통계를 수행.
 
@@ -8,7 +8,8 @@ Python에서 제공하는 기본 수학 연산 및 통계 기능을 활용하여
 
 숫자 나열: range() 합계 및 평균: sum(), np.mean() 정규분포 난수 생성: np.random.randn() 리스트 섞기 및 최대값 찾기: random.sample(), max()
 
-**2. 시각화 (Matplotlib & Seaborn)**
+2. 시각화 (Matplotlib & Seaborn)
+   
 Python의 Seaborn과 Matplotlib 라이브러리를 사용하여 다양한 데이터를 시각화.
 
 산점도 (Scatter Plot): 자동차 배기량과 연비의 관계를 실린더 수를 기준으로 색상으로 구분.
@@ -21,7 +22,8 @@ Python의 Seaborn과 Matplotlib 라이브러리를 사용하여 다양한 데이
 극좌표 그래프 (Polar Coordinate Plot):
 다이아몬드 데이터셋의 절단 품질 데이터를 극좌표 형태로 표현.
 
-**3. 데이터 처리 (Pandas 활용)**
+3. 데이터 처리 (Pandas 활용)
+
 Python의 Pandas 라이브러리를 활용하여 데이터 처리 작업을 수행.
 
 필터링 (Filter):
