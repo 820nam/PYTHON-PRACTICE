@@ -1,7 +1,6 @@
+### Python 기본 계산 관련 함수
 import numpy as np  # 수학 계산용
 import random       # 랜덤 함수용
-
-### Python 기본 계산 관련 함수
 print(3 + 4**2)                     # 덧셈과 거듭제곱 연산자: 3 + 4^2 = 19
 print(np.log(10))                   # 자연 로그 계산 (log_e): ln(10)
 print(np.exp(2))                    # 지수 함수 계산 (e^2)
