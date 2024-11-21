@@ -20,3 +20,34 @@ sns.scatterplot(data=mpg, x='displacement', y='mpg', hue='cylinders', palette='t
 plt.title("Displacement vs MPG (Color: Cylinders)")
 plt.show()
 
+### diamonds 데이터셋 분석 및 시각화
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+diamonds = sns.load_dataset("diamonds") # diamonds 데이터셋 로드
+
+sns.countplot(data=diamonds, x='cut') # 단순 막대 그래프
+plt.title("Frequency by Cut")
+plt.xlabel("Cut")
+plt.ylabel("Count")
+plt.show()
+
+sns.countplot(data=diamonds, x='cut', hue='clarity') # clarity별 색상 추가
+plt.title("Cut 별 Clarity 분포")
+plt.xlabel("Cut")
+plt.ylabel("Count")
+plt.legend(title="Clarity")
+plt.show()
+
+sns.countplot(data=diamonds, x='cut', hue='clarity', dodge=True) # clarity별 막대 분리 (dodge)
+plt.title("Cut 별 Clarity 막대 분리")
+plt.xlabel("Cut")
+plt.ylabel("Count")
+plt.legend(title="Clarity")
+plt.show()
+
+diamonds['cut_counts'] = diamonds['cut'].map(diamonds['cut'].value_counts()) # 극좌표 그래프
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})  # 극좌표 설정
+sns.histplot(data=diamonds, x='cut_counts', hue='cut', multiple='stack', ax=ax)
+plt.title("극좌표 그래프 (Cut)")
+plt.show()
