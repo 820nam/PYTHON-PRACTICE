@@ -12,3 +12,12 @@ print(np.random.randn(12))          # 평균 0, 표준편차 1 정규분포 난�
 print(np.mean(np.random.randn(10))) # 정규분포 난수 10개의 평균
 print(random.sample(range(1, 21), 20))  # 1부터 20까지 무작위 섞기
 print(max(random.sample(range(1, 21), 20))) # 무작위 값 중 최대값
+
+### mpg 데이터셋 분석 및 시각화
+import seaborn as sns
+import matplotlib.pyplot as plt
+mpg = sns.load_dataset('mpg') # MPG 데이터셋 로드
+sns.scatterplot(data=mpg, x='displacement', y='mpg', hue='cylinders', palette='tab10') # 실린더 수로 색상 구분
+plt.title("Displacement vs MPG (Color: Cylinders)")
+plt.show()
+
