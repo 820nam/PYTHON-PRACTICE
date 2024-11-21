@@ -51,3 +51,20 @@ fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})  # 극좌표 설정
 sns.histplot(data=diamonds, x='cut_counts', hue='cut', multiple='stack', ax=ax)
 plt.title("Polar Coordinate Graph (Cut)")
 plt.show()
+
+### nycflights13 데이터셋 분석
+jan1_flights = flights[(flights['month'] == 1) & (flights['day'] == 1)] # 1. 1월 1일 데이터 필터링
+print("1월 1일 데이터 필터링 결과:")
+print(jan1_flights.head())
+
+sorted_flights = flights.sort_values(by='dep_delay', ascending=False) # 2. 출발 지연 내림차순 정렬
+print("\n출발 지연 내림차순 정렬:")
+print(sorted_flights[['dep_delay', 'arr_delay', 'month', 'day']].head())
+
+selected_columns = flights[['year', 'month', 'day']] # 3. 연도, 월, 일 열만 선택
+print("\n연도, 월, 일 열만 선택:")
+print(selected_columns.head())
+
+flights['gain'] = flights['dep_delay'] - flights['arr_delay'] # 4. 출발/도착 지연 시간 차이 추가
+print("\n출발/도착 지연 시간 차이(gain) 추가:")
+print(flights[['dep_delay', 'arr_delay', 'gain']].head())
