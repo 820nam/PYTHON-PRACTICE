@@ -1,4 +1,4 @@
-**PRACTICE.py**
+#**PRACTICE.py**
 
 **1. 기본 연산 및 통계**
    
