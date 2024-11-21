@@ -9,7 +9,7 @@ Python에서 제공하는 기본 수학 연산 및 통계 기능을 활용하여
 숫자 나열: range() 합계 및 평균: sum(), np.mean() 정규분포 난수 생성: np.random.randn() 리스트 섞기 및 최대값 찾기: random.sample(), max()
 
 **2. 시각화 (Matplotlib & Seaborn)**
-Python의 Seaborn과 Matplotlib 라이브러리를 사용하여 다양한 데이터를 시각화합니다.
+Python의 Seaborn과 Matplotlib 라이브러리를 사용하여 다양한 데이터를 시각화.
 
 산점도 (Scatter Plot): 자동차 배기량과 연비의 관계를 실린더 수를 기준으로 색상으로 구분.
 
@@ -22,26 +22,26 @@ Python의 Seaborn과 Matplotlib 라이브러리를 사용하여 다양한 데이
 다이아몬드 데이터셋의 절단 품질 데이터를 극좌표 형태로 표현.
 
 **3. 데이터 처리 (Pandas 활용)**
-Python의 Pandas 라이브러리를 활용하여 데이터 처리 작업을 수행합니다.
+Python의 Pandas 라이브러리를 활용하여 데이터 처리 작업을 수행.
 
 필터링 (Filter):
 특정 조건에 따라 데이터를 선택합니다.
 예: flights 데이터셋에서 1월 1일 데이터만 필터링.
 
 정렬 (Sort):
-특정 열을 기준으로 데이터를 오름차순 또는 내림차순 정렬합니다.
+특정 열을 기준으로 데이터를 오름차순 또는 내림차순 정렬.
 예: 출발 지연 시간(dep_delay)을 기준으로 내림차순 정렬.
 
 열 선택 (Select):
-분석에 필요한 특정 열만 선택합니다.
+분석에 필요한 특정 열만 선택.
 예: year, month, day 열만 선택.
 
 변수 생성 (Mutate):
-기존 데이터를 기반으로 새로운 열을 생성합니다.
+기존 데이터를 기반으로 새로운 열을 생성.
 예: 출발 지연 시간과 도착 지연 시간의 차이를 계산하여 gain 열 생성.
 
 **4. 데이터 정리 (Pandas 활용)**
-R의 tidyr 패키지와 유사한 기능을 Python의 Pandas로 구현하여 데이터를 정리합니다.
+R의 tidyr 패키지와 유사한 기능을 Python의 Pandas로 구현하여 데이터를 정리.
 
 긴 형식 변환 (Pivot Longer):
 
