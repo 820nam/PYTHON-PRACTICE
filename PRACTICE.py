@@ -33,14 +33,14 @@ plt.ylabel("Count")
 plt.show()
 
 sns.countplot(data=diamonds, x='cut', hue='clarity') # clarity별 색상 추가
-plt.title("Cut 별 Clarity 분포")
+plt.title("Clarity Distribution by Cut")
 plt.xlabel("Cut")
 plt.ylabel("Count")
 plt.legend(title="Clarity")
 plt.show()
 
 sns.countplot(data=diamonds, x='cut', hue='clarity', dodge=True) # clarity별 막대 분리 (dodge)
-plt.title("Cut 별 Clarity 막대 분리")
+plt.title("Separated Clarity Bars by Cut")
 plt.xlabel("Cut")
 plt.ylabel("Count")
 plt.legend(title="Clarity")
@@ -49,5 +49,5 @@ plt.show()
 diamonds['cut_counts'] = diamonds['cut'].map(diamonds['cut'].value_counts()) # 극좌표 그래프
 fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})  # 극좌표 설정
 sns.histplot(data=diamonds, x='cut_counts', hue='cut', multiple='stack', ax=ax)
-plt.title("극좌표 그래프 (Cut)")
+plt.title("Polar Coordinate Graph (Cut)")
 plt.show()
