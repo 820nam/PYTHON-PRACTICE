@@ -1,20 +1,14 @@
 **PRACTICE.py**
 
-1. 기본 연산 및 통계
+**1. 기본 연산 및 통계**
    
 Python에서 제공하는 기본 수학 연산 및 통계 기능을 활용하여 간단한 계산과 요약 통계를 수행.
 
-지원 기능:
-덧셈 및 거듭제곱: +, **
-로그 계산: np.log()
-지수 계산: np.exp()
-제곱근: np.sqrt()
-숫자 나열: range()
-합계 및 평균: sum(), np.mean()
-정규분포 난수 생성: np.random.randn()
-리스트 섞기 및 최대값 찾기: random.sample(), max()
+지원 기능: 덧셈 및 거듭제곱: +, ** 로그 계산: np.log() 지수 계산: np.exp() 제곱근: np.sqrt()
 
-2. 시각화 (Matplotlib & Seaborn)
+숫자 나열: range() 합계 및 평균: sum(), np.mean() 정규분포 난수 생성: np.random.randn() 리스트 섞기 및 최대값 찾기: random.sample(), max()
+
+**2. 시각화 (Matplotlib & Seaborn)**
 Python의 Seaborn과 Matplotlib 라이브러리를 사용하여 다양한 데이터를 시각화합니다.
 
 주요 시각화:
@@ -28,7 +22,8 @@ Python의 Seaborn과 Matplotlib 라이브러리를 사용하여 다양한 데이
 극좌표 그래프 (Polar Coordinate Plot):
 
 다이아몬드 데이터셋의 절단 품질 데이터를 극좌표 형태로 표현.
-3. 데이터 처리 (Pandas 활용)
+
+**3. 데이터 처리 (Pandas 활용)**
 Python의 Pandas 라이브러리를 활용하여 데이터 처리 작업을 수행합니다.
 
 주요 기능:
@@ -48,7 +43,8 @@ Python의 Pandas 라이브러리를 활용하여 데이터 처리 작업을 수�
 
 기존 데이터를 기반으로 새로운 열을 생성합니다.
 예: 출발 지연 시간과 도착 지연 시간의 차이를 계산하여 gain 열 생성.
-4. 데이터 정리 (Pandas 활용)
+
+**4. 데이터 정리 (Pandas 활용)**
 R의 tidyr 패키지와 유사한 기능을 Python의 Pandas로 구현하여 데이터를 정리합니다.
 
 주요 기능:
