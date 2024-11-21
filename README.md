@@ -53,6 +53,15 @@ Python의 Pandas 라이브러리를 활용하여 데이터 처리 작업을 수�
 불필요한 열 제거 (Select):
 분석에 필요하지 않은 열을 제거하여 데이터 구조를 최적화.
 
+작업	Pandas 함수
+필터링 (Filter)	DataFrame.loc[], 조건 필터링
+정렬 (Sort)	DataFrame.sort_values()
+열 선택 (Select)	DataFrame[['col1', 'col2']]
+변수 생성 (Mutate)	DataFrame['new_column'] = ...
+긴 형식 변환	DataFrame.melt()
+열 분리	str.split(), str.extract()
+불필요한 열 제거	DataFrame.drop(columns=...)
+
 
 **Reference dataset**
 
