@@ -11,8 +11,6 @@ Python에서 제공하는 기본 수학 연산 및 통계 기능을 활용하여
 **2. 시각화 (Matplotlib & Seaborn)**
 Python의 Seaborn과 Matplotlib 라이브러리를 사용하여 다양한 데이터를 시각화합니다.
 
-주요 시각화:
-
 산점도 (Scatter Plot): 자동차 배기량과 연비의 관계를 실린더 수를 기준으로 색상으로 구분.
 
 사용 데이터셋: mpg (미국 자동차 연비 데이터).
@@ -26,7 +24,6 @@ Python의 Seaborn과 Matplotlib 라이브러리를 사용하여 다양한 데이
 **3. 데이터 처리 (Pandas 활용)**
 Python의 Pandas 라이브러리를 활용하여 데이터 처리 작업을 수행합니다.
 
-주요 기능:
 필터링 (Filter):
 특정 조건에 따라 데이터를 선택합니다.
 예: flights 데이터셋에서 1월 1일 데이터만 필터링.
@@ -46,7 +43,6 @@ Python의 Pandas 라이브러리를 활용하여 데이터 처리 작업을 수�
 **4. 데이터 정리 (Pandas 활용)**
 R의 tidyr 패키지와 유사한 기능을 Python의 Pandas로 구현하여 데이터를 정리합니다.
 
-주요 기능:
 긴 형식 변환 (Pivot Longer):
 
 데이터를 열에서 행으로 변환하여 긴 형식의 데이터를 생성.
